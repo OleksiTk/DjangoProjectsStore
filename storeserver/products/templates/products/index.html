@@ -45,7 +45,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="users/login.html"
+              <a class="nav-link" href="{%url 'users:login' %}"
                 >Войти <i class="fas fa-sign-in-alt"></i
               ></a>
             </li>
@@ -96,7 +96,7 @@
               -20% новым покупателям. {% endif %}
             </p>
             <button id="start-purchase-btn" type="button" class="btn btn-lg">
-              <a id="start-purchase-link" href="products.html">
+              <a id="start-purchase-link" href="{% url 'products' %}">
                 Начать покупки
               </a>
             </button>
